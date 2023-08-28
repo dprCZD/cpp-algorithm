@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,11 +19,117 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="reverse_list.cpp" />
+    <ClCompile Include="108_sorted_array_to_bst.cpp" />
+    <ClCompile Include="114_tree_to_list.cpp" />
+    <ClCompile Include="121_best_time_to_buy_and_sell_stock.cpp" />
+    <ClCompile Include="130_srrounded_regions.cpp" />
+    <ClCompile Include="134_gas_station.cpp" />
+    <ClCompile Include="138_copy_random_list.cpp" />
+    <ClCompile Include="139_word_break.cpp" />
+    <ClCompile Include="141_list_cycle.cpp" />
+    <ClCompile Include="142_list_cycle_2.cpp" />
+    <ClCompile Include="152_max_product.cpp" />
+    <ClCompile Include="160_intersection_list.cpp" />
+    <ClCompile Include="162_find_peak_element.cpp" />
+    <ClCompile Include="169_majority_element.cpp" />
+    <ClCompile Include="172_trailing_zero.cpp" />
+    <ClCompile Include="179_find_largest_number.cpp" />
+    <ClCompile Include="190_reverse_bit.cpp" />
+    <ClCompile Include="191_hamming_weight.cpp" />
+    <ClCompile Include="198_house_robber.cpp" />
+    <ClCompile Include="207_course_schedule.cpp" />
+    <ClCompile Include="208_trie.cpp" />
+    <ClCompile Include="210_course_graph_2.cpp" />
+    <ClCompile Include="215_find_k_th_largest.cpp" />
+    <ClCompile Include="218_the_skyline_problem.cpp" />
+    <ClCompile Include="221_maximal_square.cpp" />
+    <ClCompile Include="226_invert_tree.cpp" />
+    <ClCompile Include="227_basic_calculator.cpp" />
+    <ClCompile Include="228_full_calculator.cpp" />
+    <ClCompile Include="230_kth_smallest_element_bst.cpp" />
+    <ClCompile Include="234_is_palindrome_list.cpp" />
+    <ClCompile Include="236_lowest_common_ancestorcpp.cpp" />
+    <ClCompile Include="238_product_expect_self.cpp" />
+    <ClCompile Include="279_num_squares.cpp" />
+    <ClCompile Include="283_move_zero.cpp" />
+    <ClCompile Include="287_find_duplicate.cpp" />
+    <ClCompile Include="288_missing_number.cpp" />
+    <ClCompile Include="289_life_of_game.cpp" />
+    <ClCompile Include="28_str_str.cpp" />
+    <ClCompile Include="309_max_profit.cpp" />
+    <ClCompile Include="322_coin_change.cpp" />
+    <ClCompile Include="326_power_of_three.cpp" />
+    <ClCompile Include="328_odd_even_list.cpp" />
+    <ClCompile Include="337_rob_3.cpp" />
+    <ClCompile Include="338_count_ones.cpp" />
+    <ClCompile Include="347_top_k_frequent.cpp" />
+    <ClCompile Include="36_is_valid_sudoku.cpp" />
+    <ClCompile Include="371_sum_of_two_integers.cpp" />
+    <ClCompile Include="380_randomized_set.cpp" />
+    <ClCompile Include="38_count_and_say.cpp" />
+    <ClCompile Include="394_encode_string.cpp" />
+    <ClCompile Include="406_reconstruct_queue.cpp" />
+    <ClCompile Include="437_path_sum.cpp" />
+    <ClCompile Include="438_find_angrams.cpp" />
+    <ClCompile Include="448_find_disappeared_numbers.cpp" />
+    <ClCompile Include="461_haming_distance.cpp" />
+    <ClCompile Include="50_pow.cpp" />
+    <ClCompile Include="538_to_greater_sum.cpp" />
+    <ClCompile Include="543_diameter_of_binary_tree.cpp" />
+    <ClCompile Include="560_subarray_sum.cpp" />
+    <ClCompile Include="581_find_unsorted_array.cpp" />
+    <ClCompile Include="621_task_scheduler.cpp" />
+    <ClCompile Include="66_add_one.cpp" />
+    <ClCompile Include="739_daily_temperatures.cpp" />
+    <ClCompile Include="73_set_matrix_zero.cpp" />
+    <ClCompile Include="add_two_sum.cpp" />
+    <ClCompile Include="combination_sum.cpp" />
+    <ClCompile Include="105_construct_tree_from_preorder_and_inorder.cpp" />
+    <ClCompile Include="container_with_most_water.cpp" />
+    <ClCompile Include="generate_parentheses.cpp" />
+    <ClCompile Include="group_anagrams.cpp" />
+    <ClCompile Include="island_num.cpp" />
+    <ClCompile Include="is_valid_bst.cpp" />
+    <ClCompile Include="jump_game.cpp" />
+    <ClCompile Include="300_length_of_lis.cpp" />
+    <ClCompile Include="letter_combinations_of_a_phone_number.cpp" />
+    <ClCompile Include="level_order.cpp" />
+    <ClCompile Include="128_longest_consecutive_sequence.cpp" />
+    <ClCompile Include="longest_palindromic_substring.cpp" />
+    <ClCompile Include="longest_substring_without_repeating_characters.cpp" />
+    <ClCompile Include="maximum_subarray.cpp" />
+    <ClCompile Include="max_depth.cpp" />
+    <ClCompile Include="median_of_two_sorted _arrays.cpp" />
+    <ClCompile Include="merge_intervals.cpp" />
+    <ClCompile Include="merge_k_sorted_lists.cpp" />
+    <ClCompile Include="merge_two_sorted_lists.cpp" />
+    <ClCompile Include="middle_order.cpp" />
+    <ClCompile Include="minimum_path_sum.cpp" />
+    <ClCompile Include="next_permutation.cpp" />
+    <ClCompile Include="118_pascals_triagle.cpp" />
+    <ClCompile Include="permutations.cpp" />
+    <ClCompile Include="remove_nth_node_from_end_of_list.cpp" />
+    <ClCompile Include="206_reverse_list.cpp" />
+    <ClCompile Include="rotate_image.cpp" />
+    <ClCompile Include="search_in_rotated_sorted_array.cpp" />
+    <ClCompile Include="136_single_number.cpp" />
+    <ClCompile Include="search_matrix.cpp" />
+    <ClCompile Include="sort_color.cpp" />
+    <ClCompile Include="148_sort_list.cpp" />
+    <ClCompile Include="subset.cpp" />
+    <ClCompile Include="symmetric_tree.cpp" />
+    <ClCompile Include="tree_sum.cpp" />
     <ClCompile Include="two_sum.cpp" />
+    <ClCompile Include="unqiue_path.cpp" />
+    <ClCompile Include="valid_parentheses.cpp" />
+    <ClCompile Include="word_search.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="171_excel_sheet_column.cpp" />
+    <ClInclude Include="common.h" />
     <ClInclude Include="list_node.h" />
+    <ClInclude Include="random_list_node.h" />
+    <ClInclude Include="tree_node.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

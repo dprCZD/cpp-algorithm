@@ -27,12 +27,12 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<int> data{ 3,2,4 };
-    vector<int> res = s.twoSum(data, 6);
-    for (int num : res) {
-        cout << num << endl;
-    }
-
-}
+//int main() {
+//    Solution s;
+//    vector<int> data{ 3,2,4 };
+//    vector<int> res = s.twoSum(data, 6);
+//    for (int num : res) {
+//        cout << num << endl;
+//    }
+//
+//}
